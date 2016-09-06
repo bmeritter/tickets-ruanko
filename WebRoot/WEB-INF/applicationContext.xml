@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="GBK"?>
+<!-- 指定Spring配置文件的Schema信息 -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean id="dataSource" 
+		class="com.mchange.v2.c3p0.ComboPooledDataSource"
+		destroy-method="close">
+		<!-- 指定连接数据库的驱动 -->
+		<property name="driverClass" value="com.mysql.jdbc.Driver"/>
+		<!-- 指定连接数据库的URL -->
+		<property name="jdbcUrl" 
+		value="jdbc:mysql://localhost:3306/ticketcollection?useUnicode=true&amp;characterEncoding=gbk"/>
+		<!-- 指定连接数据库的用户名 -->
+		<property name="user" value="root"/>
+		<!-- 指定连接数据库的密码 -->
+		<property name="password" value="123"/>
+		<!-- 指定连接数据库连接池的最大连接数 -->
+		<property name="maxPoolSize" value="20"/>
+		<!-- 指定连接数据库连接池的最小连接数 -->
+		<property name="minPoolSize" value="1"/>
+		<!-- 指定连接数据库连接池的初始化连接数 -->
+		<property name="initialPoolSize" value="1"/>
+		<!-- 指定连接数据库连接池的连接的最大空闲时间 -->
+		<property name="maxIdleTime" value="20"/>
+	</bean>
+
+    <!--定义了Hibernate的SessionFactory -->
+    <bean id="sessionFactory"  class=
+    	"org.springframework.orm.hibernate3.LocalSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"/>
+        <property name="mappingResources">
+            <list>
+				<value>Ticket.hbm.xml</value>
+				<value>User.hbm.xml</value>
+				<value>Order.hbm.xml</value>
+				<value>Usedticket.hbm.xml</value>
+            </list>
+        </property>
+        <property name="hibernateProperties">
+            <props>
+                <prop key="hibernate.dialect">
+                	org.hibernate.dialect.MySQLDialect</prop>
+                <prop key="show_sql">true</prop>
+                <prop key="hibernate.hbm2ddl.auto">update</prop>
+                <prop key="hibernate.jdbc.batch_size">20</prop> 
+            </props>
+        </property>
+    </bean>
+	<bean id="ticketdao" class="com.org.dao.impl.TicketDaoImpl">
+		<property name="sessionFactory" ref="sessionFactory"/>
+	</bean>		
+	
+	<bean id="ticketservice" class="com.org.service.impl.TicketServiceImpl">
+		<property name="ticketdao" ref="ticketdao"/>
+	</bean>
+	<bean id="userdao" class="com.org.dao.impl.UserDaoImpl">
+		<property name="sessionFactory" ref="sessionFactory"/>
+	</bean>		
+	
+	<bean id="userservice" class="com.org.service.impl.UserServiceImpl">
+		<property name="userdao" ref="userdao"/>
+	</bean>
+
+	<bean id="addusercontrol" class="com.org.service.impl.UserServiceImpl">
+		<property name="userdao" ref="userdao"/>
+	</bean>
+
+	<bean id="orderdao" class="com.org.dao.impl.OrderDaoImpl">
+		<property name="sessionFactory" ref="sessionFactory" />
+	</bean>
+
+	<bean id="ordercontrol" class="com.org.service.impl.OrderServiceImpl">
+		<property name="orderdao" ref="orderdao" />
+	</bean>
+	
+	<bean id="usedticketdao" class="com.org.dao.impl.UsedTicketDaoImpl">
+		<property name="sessionFactory" ref="sessionFactory"/>
+	</bean>		
+	
+	<bean id="usedticketcontrol" 
+		class="com.org.service.impl.UsedTicketServiceImpl">
+		<property name="ticketdao" ref="usedticketdao"/>
+	</bean>	
+</beans>

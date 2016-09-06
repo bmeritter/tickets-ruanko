@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="GBK"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<constant name="struts.i18n.encoding" value="GBK"/>
+    <package name="com.org.action" extends="struts-default">	            
+    	<!-- 按title搜索图书 -->
+        <action name="searchtickets" class="com.org.action.TicketAction" method="SearchTickets">
+			<result name="success">/ticketspage/searchticketsresult.jsp</result>	
+			<result name="fail">/tickets/fail.jsp</result>  
+        </action>
+        <action name="userRegist" class="com.org.action.AddUserAction" method="AddUser">
+			<result name="success">/ticketspage/temp.jsp</result>
+			<result name="error">/userspage/adduser.jsp</result>
+			<result name="input">/userspage/adduser.jsp</result>
+		</action>
+		<action name="userLogin" class="com.org.action.UserAction" method="login">
+			<result name="success">/ticketspage/searchtickets.jsp</result>
+			<result name="error">/user/loginerror.jsp</result>
+		</action>
+		<action name="userLogout" class="com.org.action.UserAction" method="logout">
+			<result name="success">/ticketspage/temp.jsp</result>
+		</action>
+		<!-- 传入添加订单信息 -->
+		<action name="addordertmp" class="com.org.action.OrderAction"
+			method="SaveOrderTmp">
+			<result name="success">/ticketspage/addorder.jsp</result>
+		</action>
+		<!-- 按username搜索订单 -->
+		<action name="searchorder" class="com.org.action.OrderAction"
+			method="SearchOrderByUsername">
+			<result name="success">/ticketspage/orderresult.jsp</result>
+			<result name="input">/ticketspage/searchorder.jsp</result>
+		</action>
+		<!-- 储存订单 -->
+		<action name="addorder" class="com.org.action.OrderAction"
+			method="SaveOrder">
+			<result name="success">/ticketspage/temp.jsp</result>
+			<result name="input">/ticketspage/addorder.jsp</result>
+		</action>
+		<!-- 按description搜索 -->
+		<action name="searchticketsbydescription" class="com.org.action.UsedTicketAction"
+			method="SearchUsedTickets">
+			<result name="success">/ticketspage/searchusedticketsresult.jsp</result>
+			<result name="input">/ticketspage/searchusedtickets.jsp</result>
+		</action>
+		<!-- 添加二手票-->
+		<action name="saveusedticket" class="com.org.action.UsedTicketAction"
+			method="AddUsedticket">
+			<result name="success">/ticketspage/temp.jsp</result>
+			<result name="input">/ticketspage/addusedticket.jsp</result>
+		</action>
+    </package> 
+</struts>

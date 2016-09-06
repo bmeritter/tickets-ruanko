@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="com.org.action" location="0,0" size="0,0">
+    <action name="searchtickets" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="searchticketsresult.jsp" />
+      </result>
+      <result name="fail">
+        <resourceEdge source="fail" routing="0" target="fail.jsp" />
+      </result>
+    </action>
+    <action name="userRegist" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="Main.jsp" />
+      </result>
+      <result name="error">
+        <resourceEdge source="error" routing="0" target="adduser.jsp" />
+      </result>
+      <result name="input">
+        <resourceEdge source="input" routing="0" target="adduser.jsp" />
+      </result>
+    </action>
+    <action name="userLogin" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="searchtickets.jsp" />
+      </result>
+      <result name="error">
+        <resourceEdge source="error" routing="0" target="loginerror.jsp" />
+      </result>
+    </action>
+    <action name="userLogout" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="index.jsp" />
+      </result>
+    </action>
+    <action name="addordertmp" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="addorder.jsp" />
+      </result>
+    </action>
+    <action name="searchorder" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="orderresult.jsp" />
+      </result>
+      <result name="input">
+        <resourceEdge source="input" routing="0" target="searchorder.jsp" />
+      </result>
+    </action>
+    <action name="addorder" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="Main.jsp" />
+      </result>
+      <result name="input">
+        <resourceEdge source="input" routing="0" target="addorder.jsp" />
+      </result>
+    </action>
+    <action name="searchticketsbydescription" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="searchusedticketsresult.jsp" />
+      </result>
+      <result name="input">
+        <resourceEdge source="input" routing="0" target="searchusedtickets.jsp" />
+      </result>
+    </action>
+    <action name="saveusedticket" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="Main.jsp" />
+      </result>
+      <result name="input">
+        <resourceEdge source="input" routing="0" target="addusedticket.jsp" />
+      </result>
+    </action>
+  </package>
+  <webResource name="searchticketsresult.jsp" path="/ticketspage/searchticketsresult.jsp" location="0,0" size="0,0" />
+  <webResource name="fail.jsp" path="/tickets/fail.jsp" location="0,0" size="0,0" />
+  <webResource name="registresult.jsp" path="/user/registresult.jsp" location="0,0" size="0,0" />
+  <webResource name="adduser.jsp" path="/userspage/adduser.jsp" location="0,0" size="0,0" />
+  <webResource name="searchtickets.jsp" path="/ticketspage/searchtickets.jsp" location="0,0" size="0,0" />
+  <webResource name="loginerror.jsp" path="/user/loginerror.jsp" location="0,0" size="0,0" />
+  <webResource name="index.jsp" path="/ticketspage/index.jsp" location="0,0" size="0,0" />
+  <webResource name="addorder.jsp" path="/ticketspage/addorder.jsp" location="0,0" size="0,0" />
+  <webResource name="orderresult.jsp" path="/ticketspage/orderresult.jsp" location="0,0" size="0,0" />
+  <webResource name="searchorder.jsp" path="/ticketspage/searchorder.jsp" location="0,0" size="0,0" />
+  <webResource name="addorderresult.jsp" path="/orders/addorderresult.jsp" location="0,0" size="0,0" />
+  <webResource name="searchusedticketsresult.jsp" path="/ticketspage/searchusedticketsresult.jsp" location="0,0" size="0,0" />
+  <webResource name="searchusedtickets.jsp" path="/ticketspage/searchusedtickets.jsp" location="0,0" size="0,0" />
+  <webResource name="searchusedtickets.jsp" path="/usedtickets/searchusedtickets.jsp" location="0,0" size="0,0" />
+  <webResource name="addusedticket.jsp" path="/usedtickets/addusedticket.jsp" location="0,0" size="0,0" />
+  <webResource name="Main.jsp" path="/ticketspage/Main.jsp" location="0,0" size="0,0" />
+  <webResource name="addusedticket.jsp" path="/ticketspage/addusedticket.jsp" location="0,0" size="0,0" />
+</Struts2Diagram>
+
