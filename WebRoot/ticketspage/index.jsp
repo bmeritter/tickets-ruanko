@@ -509,19 +509,19 @@ function MM_goToURL() { //v3.0
         <marquee   scrollamount="6" direction="left" align="left" onmouseover=  		"this.stop()" onmouseout="this.start()"
  >
     <a href="http://www.damai.cn/ticket_39128.html">
-    <img src="src/47b90521-9cc1-49b3-b4d5-07d47bb7de28.jpg" width="151"height="162"/>
+    <img src="../userspage/src/test2.jpg" width="151"height="162"/>
     </a>
     
     <a href="http://www.damai.cn/ticket_39846.html">
-    <img src="src/c51e72a0-c2b7-4726-9cc9-f75ac929deec.jpg" width="151"height="162"/>
+    <img src="../userspage/src/c51e72a0-c2b7-4726-9cc9-f75ac929deec.jpg" width="151"height="162"/>
     </a>
     
     <a href="http://www.damai.cn/ticket_38234.html">
-    <img src="src/68fc1ca5-ecb7-4b7c-9213-8a41162aef4e.jpg" width="151"height="162"/>
+    <img src="../userspage/src/68fc1ca5-ecb7-4b7c-9213-8a41162aef4e.jpg" width="151"height="162"/>
     </a>
     
     <a href="http://www.damai.cn/ticket_38515.html">
-    <img src="src/d5d4df58-1983-4c6e-91b6-27a3b8e094cd.jpg" width="151"height="162"/>
+    <img src="../userspage/src/d5d4df58-1983-4c6e-91b6-27a3b8e094cd.jpg" width="151"height="162"/>
     </a>
     
         

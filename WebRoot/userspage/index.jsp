@@ -506,10 +506,10 @@ function MM_goToURL() { //v3.0
       <tr>
         <td width="351" height="162">
         
-        <marquee   scrollamount="6" direction="left" align="left" onmouseover=  		"this.stop()" onmouseout="this.start()"
+        <marquee   scrollamount="6" direction="left" align="left" onmouseover="this.stop()" onmouseout="this.start()"
  >
     <a href="http://www.damai.cn/ticket_39128.html">
-    <img src="src/47b90521-9cc1-49b3-b4d5-07d47bb7de28.jpg" width="151"height="162"/>
+    <img src="src/test2.jpg" width="151"height="162"/>
     </a>
     
     <a href="http://www.damai.cn/ticket_39846.html">

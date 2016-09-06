@@ -122,15 +122,14 @@
       <ol>
 	    <li>
 		  <dl>
-  	        <dt><img src="photo/recom_01.jpg" alt="商品图片" /></dt>
-		    <dd class="title recom_title recom">蔡依林演唱会</dd>
-		    <dd class="memo recom">乐界女王-亚洲舞后——JOLIN蔡依林，生日演唱会,蔡依林期待和你一起.
-			<br/>&nbsp&nbsp用更好听的音乐，用更炫丽的舞步，做最真实的自己！</dd>
+  	        <dt><img src="photo/yinyuejie.jpg" alt="商品图片"   width="139" height="187" /></dt>
+		    <dd class="title recom_title recom">陈奕迅演唱会</dd>
+		    <dd class="memo recom">Eason拥有的大热金曲更不下数十首，他的歌有一种魔力，无论妙趣横生、或深情款款、或耐人寻味，总是让人深陷其中，不能自已</dd>
 		    <dd class="price recom">原　价：￥800元</dd>
 		    <dd class="net_price recom"> 折扣价：￥700元</dd>
 		    <dd class="select">
 			  <ul>
-			    <li class="btn buy"><a href="http://i.damai.cn/2012cyl" title="点击购买此商品">购买</a></li>
+			    <li class="btn buy"><a href="http://item.damai.cn/106853.html" title="点击购买此商品">购买</a></li>
 				<li class="btn favorite"><a href="#" title="点击将商品加入收藏夹">收藏</a></li>
 			  </ul>
 			</dd>
@@ -138,16 +137,16 @@
 	    </li>
 	    <li>
 		  <dl>
-  	        <dt><img src="photo/recom_02.jpg" alt="商品图片" /></dt>
-		    <dd class="title recom_title recom"> NBA传奇赛 </dd>
-		    <dd class="memo recom"> 艾弗森和马布里都是NBA赛场上的悲情英雄，是英雄，必会惺惺相惜。当这两位老英雄在五棵松的赛场上相遇时，必将彼此互不相让地奏响一段激情乐章！
+  	        <dt><img src="photo/simple.jpg" alt="商品图片"  width="139" height="187" /></dt>
+		    <dd class="title recom_title recom"> 简单计划演唱会 </dd>
+		    <dd class="memo recom"> 代表了一代人声音的Simple Plan简单计划乐队即将携他们的“Taking One for the Team”世界巡演来到东南亚！
 
 			</dd>
 		    <dd class="price recom">原　价：￥128元</dd>
 		    <dd class="net_price recom">折扣价：￥108元</dd>
 		    <dd class="select">
 			  <ul>
-			    <li class="btn buy"><a href="http://www.damai.cn/ticket_39996.html" title="点击购买此商品">购买</a></li>
+			    <li class="btn buy"><a href="http://item.damai.cn/105404.html" title="点击购买此商品">购买</a></li>
 				<li class="btn favorite"><a href="#" title="点击将商品加入收藏夹">收藏</a></li>
 			  </ul>
 			</dd>
@@ -157,15 +156,15 @@
 	  <ol>
 	    <li>
 		  <dl>
-  	        <dt><img src="photo/recom_03.jpg" alt="商品图片" /></dt>
-		    <dd class="title recom_title recom">戴佩妮演唱会</dd>
-		    <dd class="memo recom">从《街角的祝福》到《原谅我就是这样的女生》为爱永不低头的野蔷薇文学繁衍她敏感的思绪舞蹈启蒙她奔放的情绪她就是戴佩妮出道十年的佩妮十年经典。
+  	        <dt><img src="photo/hunningcao.jpg" alt="商品图片"  width="139" height="187" /></dt>
+		    <dd class="title recom_title recom">混凝草音乐节 </dd>
+		    <dd class="memo recom">2016年9月16、17日（中秋假期），Concrete & Grass混凝草音乐节（原回声公园音乐节）将在上海瑞可碧橄榄球俱乐部开阔的绿地上拉开帷幕。
 </dd>
 		    <dd class="price recom">原　价：￥1000元</dd>
 		    <dd class="net_price recom"> 折扣价：￥700元</dd>
 		    <dd class="select">
 			  <ul>
-			    <li class="btn buy"><a href="http://www.damai.cn/ticket_40706.html" title="点击购买此商品">购买</a></li>
+			    <li class="btn buy"><a href="http://item.damai.cn/106550.html" title="点击购买此商品">购买</a></li>
 				<li class="btn favorite"><a href="#" title="点击将商品加入收藏夹">收藏</a></li>
 			  </ul>
 			</dd>
@@ -173,16 +172,17 @@
 	    </li>
 	    <li>
 		  <dl>
-  	        <dt><img src="photo/recom_04.jpg" alt="商品图片" /></dt>
-		    <dd class="title recom_title recom"> 申花足球赛赛 </dd>
-		    <dd class="memo recom"> 经历外援大换血的申花，在新赛季伊始面临着整体磨合的问题，从欧洲的几场拉练热身赛中就可以看出，队员之间在极力寻找默契！
+  	        <dt><img src="photo/zhujiajian.jpg" alt="商品图片"  width="139" height="187" /></dt>
+		    <dd class="title recom_title recom">朱家尖东海音乐节  </dd>
+		    <dd class="memo recom"> 011年，东海音乐节诞生于浙江舟山普陀，中国国际沙雕节现场。
+　　开启了浙江首个将海洋生态与青年文化良性结合的的大型文化节庆品牌。
 
 			</dd>
 		    <dd class="price recom">原　价：￥188元</dd>
 		    <dd class="net_price recom">折扣价：￥108元</dd>
 		    <dd class="select">
 			  <ul>
-			    <li class="btn buy"><a href="http://www.damai.cn/ticket_34809.html" title="点击购买此商品">购买</a></li>
+			    <li class="btn buy"><a href="http://item.damai.cn/106669.html" title="点击购买此商品">购买</a></li>
 				<li class="btn favorite"><a href="#" title="点击将商品加入收藏夹">收藏</a></li>
 			  </ul>
 			</dd>
@@ -192,14 +192,14 @@
 	  <ol>
 	    <li>
 		  <dl>
-  	        <dt><img src="photo/recom_05.jpg" alt="商品图片" /></dt>
-		    <dd class="title recom_title recom">韩庚演唱会</dd>
-		    <dd class="memo recom">2012寒更·庚心世界巡回演唱会，“寒更”音同“韩庚”，意为极夜之光，是黎明来临前黑夜的最后一瞬间，也是曙光初启于极夜的一瞬间</dd>
+  	        <dt><img src="photo/haigui.jpg" alt="商品图片"  width="139" height="187" /></dt>
+		    <dd class="title recom_title recom">海龟先生演唱会</dd>
+		    <dd class="memo recom">海龟先生乐队成立于2004年12月。2005年11月发行第一张EP《POGO不如跳舞》，融合了ska、punk、grunge的音乐风格以及轻松、欢快、真实的现场感染力广受好评。</dd>
 		    <dd class="price recom">原　价：￥800元</dd>
 		    <dd class="net_price recom"> 折扣价：￥750元</dd>
 		    <dd class="select">
 			  <ul>
-			    <li class="btn buy"><a href="http://www.damai.cn/ticket_39846.html" title="点击购买此商品">购买</a></li>
+			    <li class="btn buy"><a href="http://item.damai.cn/107568.html" title="点击购买此商品">购买</a></li>
 				<li class="btn favorite"><a href="#" title="点击将商品加入收藏夹">收藏</a></li>
 			  </ul>
 			</dd>
@@ -207,16 +207,16 @@
 	    </li>
 	    <li>
 		  <dl>
-  	        <dt><img src="photo/recom_06.jpg" alt="商品图片" /></dt>
-		    <dd class="title recom_title recom"> 李宇春演唱会 </dd>
-		    <dd class="memo recom">即将于8月拉开序幕的“李宇春疯狂世界巡演，不仅是玉米们的狂欢，同样也是让更多人近距离领略舞台皇后现场魅力的机会。
+  	        <dt><img src="photo/haizeiwang.jpg"  width="139" height="187" alt="商品图片" /></dt>
+		    <dd class="title recom_title recom"> 航海王视听音乐会</dd>
+		    <dd class="memo recom">《航海王》-世界上最有名的日本动漫系列。航海王音乐会以精彩的动画视频配上交响乐，现正在世界各地巡回演出(香港、法国、英国、等...)
 
 			</dd>
 		    <dd class="price recom">原　价：￥650元</dd>
 		    <dd class="net_price recom">折扣价：￥508元</dd>
 		    <dd class="select">
 			  <ul>
-			    <li class="btn buy"><a href="http://www.damai.cn/ticket_39128.html" title="点击购买此商品">购买</a></li>
+			    <li class="btn buy"><a href="http://item.damai.cn/106508.html" title="点击购买此商品">购买</a></li>
 				<li class="btn favorite"><a href="#" title="点击将商品加入收藏夹">收藏</a></li>
 			  </ul>
 			</dd>
