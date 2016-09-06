@@ -1,0 +1,27 @@
+@CHARSET "gbk";
+	table{
+		position:absolute;
+		margin:50px 50px;
+	}
+
+	select{
+		width:150px;
+	}
+	input{
+		width:150px;
+		border-top:0px;
+		border-left:0px;
+		border-right:0px;
+		border-bottom:1px  dotted  #83CEE2;
+	}
+	.one{
+		border:0px;
+		width:100px;
+		height:50px;
+	}
+	#one{
+		border:0px;
+		width:100px;
+		height:50px;
+		background-image:url(../Registimages/but2.png)
+	}

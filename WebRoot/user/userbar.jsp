@@ -1,0 +1,40 @@
+<%@page contentType="text/html;charset=gb2312"%>
+<%@taglib prefix="s" uri="/struts-tags"%>
+<%
+	String path = request.getContextPath();
+	String basePath = request.getScheme() + "://"
+			+ request.getServerName() + ":" + request.getServerPort()
+			+ path + "/";
+%>
+<html>
+	<head>
+		<base href="<%=basePath%>">
+		<title>¾ÛÆ±Íø»¶Ó­Äú</title>
+	</head>
+	<body>
+		<%
+			if (session.getAttribute("login") == null) {
+				out.print("<a href='http://www.baidu.com/'>¾ÛÆ±ÍøÊ×Ò³</a>&nbsp;|&nbsp;");
+				out.print("<a href='user/login.jsp'>µÇÂ¼</a>&nbsp;&nbsp;");
+				out.print("<a href='user/regist.jsp'>×¢²á</a>");
+			} else {
+		%>
+		<form action="userLogout.action" method="post">
+			<table>
+				<tr>
+					<td>
+						»¶Ó­:<%=session.getAttribute("login").toString()%>
+						<%
+						out.print("&nbsp;<a href='usedtickets/addusedticket.jsp'>·¢²¼¶þÊÖÆ±</a>|&nbsp;");
+						%>
+						<input type="submit" value="ÍË³ö" />
+					</td>
+				</tr>
+			</table>
+
+		</form>
+		<%
+			}
+		%>
+	</body>
+</html>
